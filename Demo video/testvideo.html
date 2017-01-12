@@ -1,45 +1,30 @@
-<!--image hide--> 
-<div hidden=""><img border="0" src="#IMAGE#" /></div>
+  <link href="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/video.js/dist/video-js.min.css" rel="stylesheet">
+  <link href="https://rawgit.com/kazuma777/webvideo/master/videojs-resolution-switcher.css" rel="stylesheet">
+  <link href="https://kmoskwiak.github.io/videojs-resolution-switcher/style.css" rel="stylesheet">
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/video.js/dist/video.js"></script>
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/videojs-youtube/dist/Youtube.js"></script>
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/videojs-resolution-switcher/lib/videojs-resolution-switcher.js"></script>
+  
+       <style>body {
+  background: #000;
+}</style>
 
-<style>
-   .switch { cursor: pointer; }
-</style>
-<!--desktop only--> 
-<table width="640" border="0" cellspacing="0" cellpadding="0" class="hide">
-          <tr>
-            <td width="640" align="left">
-<div align="right">
-<a href="#S#" target="search_iframe"><i class="fa fa-server" aria-hidden="true"></i> HTML5 </a> |
-<a href="https://rawgit.com/kazuma777/webvideo/master/videoflash.html" target="search_iframe"><i class="fa fa-server" aria-hidden="true"></i> FLASH </a> |
-<a href="https://openload.co/embed/TRogeQUKA8I/%5BHatsune_Miku_sings_like_human%21%5D_FREELY_TOMORROW_%5BMusic_Video%5D_%28with_Subtitles%29_-_YouTube.MP4
-" target="search_iframe"><i class="fa fa-server" aria-hidden="true"></i> Openload </a></div>
-
-<div class="switch"><i class="fa fa-lightbulb-o fa-lg" aria-hidden="true"></i> Turn off the lights !</div> 
-<iframe class="video" src="https://rawgit.com/kazuma777/webvideo/master/videopartfinalendlast.html" scrolling="no" frameborder="0" allowfullscreen width="1060" height="596" name="search_iframe"></iframe>
-
-</td>
-          </tr>
-        </table>
-
-<!--mobile only--> 
-<table cellpadding="0" cellspacing="0" border="0" style="display:none;" class="show">
-             <tr style="width:0; overflow:hidden; float:left; display:none; max-height:0px; mso-hide:all;" class="me">
-               <td class="themoney" align="center">
-
-<iframe scrolling="no" class="video" height="167" src="https://rawgit.com/kazuma777/webvideo/master/videopartfinalendlast.html" frameborder="0" allowfullscreen></iframe>
-
-</td>
-             </tr>
-        </table>
+     
+      
+<video class="video-js vjs-default-skin" controls="" data-setup="{}" fluid="true" height="391" id="video_1" poster="https://1.bp.blogspot.com/-ozzclSKGGvQ/WG6Rh_G1geI/AAAAAAAAAIg/-ymKuCf3BqEWKhUMiHsgRGeYa8nx1lhmwCLcB/s1600/maxresdefault.jpg">          
+<source label="720p" res="720" src="https://lh3.googleusercontent.com/MWq4yzQoDeF4_I_hVMB8Au3Wj2l_wByBPtwu1LKP2oA=m22?hd" type="video/mp4"></source>         
+<source label="360p" res="360" src="https://lh3.googleusercontent.com/MWq4yzQoDeF4_I_hVMB8Au3Wj2l_wByBPtwu1LKP2oA=m18?sd" type="video/mp4"></source>                  
+</video>
+     
+  
+   
+   
+   
 
 
-<!--download link--> 
-<a href="https://openload.co/f/TRogeQUKA8I/%5BHatsune_Miku_sings_like_human%21%5D_FREELY_TOMORROW_%5BMusic_Video%5D_%28with_Subtitles%29_-_YouTube.MP4#" target="_blank"><i class="fa fa-download fa-lg"></i> Download 720p</a>
+  
 
-<!--light video-->
-  <script src="https://animedisini.000webhostapp.com/jquery.allofthelights.js"></script>
+
   <script>
-  $(document).ready(function() {
-   $(".video").allofthelights();
-  });
+    videojs('video_1').videoJsResolutionSwitcher()
   </script>
