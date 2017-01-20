@@ -9,9 +9,14 @@
   
        <style>body {
   background: #000;
-}
+}</style>
+
+</head>
+<body>
+     
   
-  #abt-page-loader {
+  <style>
+#abt-page-loader {
         position: fixed!important;
         position:absolute;
         top: 0;
@@ -19,17 +24,23 @@
         bottom: 0;
         left: 0;
         z-index: 9999;
-        background:#fff url(&#39;http://webmembership.azurewebsites.net/Image/please-wait-animation.gif&#39;) no-repeat 50% 50%;
+        background:#fff url(&#39;https://lh6.googleusercontent.com/-pjTc4Tght70/U20Si3fhxBI/AAAAAAAADsg/4dJrR9uwjB8/s1600/Preloader_8.gif&#39;) no-repeat 50% 50%;
         color: #f6f6f6;
         display: none;
         font: 0/0 a;
         text-shadow: none;
         padding: 1em 1.2em;
-}</style>
-
-</head>
-<body>
-     
+}
+</style> 
+<script type='text/javascript'>
+//<![CDATA[
+$(document.body).append('<div id="abt-page-loader">Loading...</div>');
+$(window).on("beforeunload", function() {
+    // ... Show the Animation `.fadeIn()`
+    $('#abt-page-loader').fadeIn(1000).delay(9000).fadeOut(1000);
+});
+//]]>
+</script>
       
 <video class="video-js vjs-default-skin" controls="" data-setup="{}" fluid="true" height="391" id="video_1" 
 poster="https://1.bp.blogspot.com/-O4nuupYShtM/WIGis-qeD4I/AAAAAAAAASg/SSYwl2cSuXU5NQL7nCw_nBHPNOvYiWzKACKgB/s1600/poster.jpg">          
@@ -55,14 +66,5 @@ else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
  
 document.oncontextmenu=new Function("return false")
   </script>
-<script type='text/javascript'>
-//<![CDATA[
-$(document.body).append('<div id="abt-page-loader">Loading...</div>');
-$(window).on("beforeunload", function() {
-    // ... Show the Animation `.fadeIn()`
-    $('#abt-page-loader').fadeIn(1000).delay(9000).fadeOut(1000);
-});
-//]]>
-</script>
 </body>
 </html>
