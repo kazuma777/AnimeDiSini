@@ -9,6 +9,22 @@
   
        <style>body {
   background: #000;
+}
+  
+  #abt-page-loader {
+        position: fixed!important;
+        position:absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9999;
+        background:#fff url(&#39;http://webmembership.azurewebsites.net/Image/please-wait-animation.gif&#39;) no-repeat 50% 50%;
+        color: #f6f6f6;
+        display: none;
+        font: 0/0 a;
+        text-shadow: none;
+        padding: 1em 1.2em;
 }</style>
 
 </head>
@@ -39,5 +55,14 @@ else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
  
 document.oncontextmenu=new Function("return false")
   </script>
+<script type='text/javascript'>
+//<![CDATA[
+$(document.body).append('<div id="abt-page-loader">Loading...</div>');
+$(window).on("beforeunload", function() {
+    // ... Show the Animation `.fadeIn()`
+    $('#abt-page-loader').fadeIn(1000).delay(9000).fadeOut(1000);
+});
+//]]>
+</script>
 </body>
 </html>
