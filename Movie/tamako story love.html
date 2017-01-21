@@ -1,0 +1,42 @@
+<html>
+<head>
+  <link href="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/video.js/dist/video-js.min.css" rel="stylesheet">
+  <link href="https://rawgit.com/kazuma777/webvideo/master/videojs-resolution-switcher.css" rel="stylesheet">
+  <link href="https://kmoskwiak.github.io/videojs-resolution-switcher/style.css" rel="stylesheet">
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/video.js/dist/video.js"></script>
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/videojs-youtube/dist/Youtube.js"></script>
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/videojs-resolution-switcher/lib/videojs-resolution-switcher.js"></script>
+  
+       <style>body {
+  background: #000;
+}</style>
+
+</head>
+<body>
+     
+      
+<video class="video-js vjs-default-skin" controls="" data-setup="{}" fluid="true" height="391" id="video_1" 
+poster="http://4.bp.blogspot.com/-AUm5UfNlYII/VcIulT30h5I/AAAAAAAAGFg/zdMdwX5zeJI/s1600/tamakolovestory.png">          
+<source label="360p" res="360" src="https://lh3.googleusercontent.com/HQoWIlA6U2c_07B25XYcAG6HCMytHesxSvpb4EuPYPuH7Ft6X3e0qaX-1GBUrtDLywnXHXIKdE-JlomXtHbvGBjoWbV4WHqqAaubs_rnU8tUlRcdCXgCmU4KbnBHYld5uLuI_0lLJvzDtsItf4zpEQbMlRZhCWUUqUzVC_jItW3dNtdmO-jFPeEVkm7xnCHb1ua5dNCUO6XC3MuSK3kGOcgkDlcVC3zs69eES3rDwM5JKR8G1ZLEllpoRuNzMCT5I0WGyKvD4dptPP2_4T1lee7OvvEac0cZHuY48ZT9IKHpt67uP_I5truQjVeR34hRyUnbI5K3hoJK1mlIwlM_EXTZYTPwKX9KDzgV28A3mfynq-d3iZVrS6Y8HDZh98l35BfFVNfhZuuycvpV8tLCYr6pL5hIiDGjUz2r6lIe6AvuPQC4ForaBQLSPDLnc1ntrXhiRV9U5ffZ9S1tncdKGDzmnfmGkDCCtxpDeO0mfizEE2asD9Uc2geF5T6MoVs2IxTIf6KBZNK9MUci7spAuD9YJJmvCxK_peyLOS0Rt8xO_ofZF8e0_2ylOGtdAGsvDOuAm5QUi8xurkgOZu3CCSWhKmwwX_82sv3aSiXgVTWREA8txVz0dUoGSb7_rrXIAoH2UJRwapEOAhfZ2WoOnCTT7BThlW0gumiQq2_mJw=m18?360" type="video/mp4"></source> 
+<source label="720p" res="720" src="https://lh3.googleusercontent.com/HQoWIlA6U2c_07B25XYcAG6HCMytHesxSvpb4EuPYPuH7Ft6X3e0qaX-1GBUrtDLywnXHXIKdE-JlomXtHbvGBjoWbV4WHqqAaubs_rnU8tUlRcdCXgCmU4KbnBHYld5uLuI_0lLJvzDtsItf4zpEQbMlRZhCWUUqUzVC_jItW3dNtdmO-jFPeEVkm7xnCHb1ua5dNCUO6XC3MuSK3kGOcgkDlcVC3zs69eES3rDwM5JKR8G1ZLEllpoRuNzMCT5I0WGyKvD4dptPP2_4T1lee7OvvEac0cZHuY48ZT9IKHpt67uP_I5truQjVeR34hRyUnbI5K3hoJK1mlIwlM_EXTZYTPwKX9KDzgV28A3mfynq-d3iZVrS6Y8HDZh98l35BfFVNfhZuuycvpV8tLCYr6pL5hIiDGjUz2r6lIe6AvuPQC4ForaBQLSPDLnc1ntrXhiRV9U5ffZ9S1tncdKGDzmnfmGkDCCtxpDeO0mfizEE2asD9Uc2geF5T6MoVs2IxTIf6KBZNK9MUci7spAuD9YJJmvCxK_peyLOS0Rt8xO_ofZF8e0_2ylOGtdAGsvDOuAm5QUi8xurkgOZu3CCSWhKmwwX_82sv3aSiXgVTWREA8txVz0dUoGSb7_rrXIAoH2UJRwapEOAhfZ2WoOnCTT7BThlW0gumiQq2_mJw=m22?720" type="video/mp4"></source>                  
+</video>
+     
+  
+
+  <script>
+    videojs('video_1').videoJsResolutionSwitcher()
+    
+    var message="";
+///////////////////////////////////
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+ 
+document.oncontextmenu=new Function("return false")
+  </script>
+</body>
+</html>
