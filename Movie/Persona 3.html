@@ -1,0 +1,42 @@
+<html>
+<head>
+  <link href="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/video.js/dist/video-js.min.css" rel="stylesheet">
+  <link href="https://rawgit.com/kazuma777/webvideo/master/videojs-resolution-switcher.css" rel="stylesheet">
+  <link href="https://kmoskwiak.github.io/videojs-resolution-switcher/style.css" rel="stylesheet">
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/video.js/dist/video.js"></script>
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/videojs-youtube/dist/Youtube.js"></script>
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/videojs-resolution-switcher/lib/videojs-resolution-switcher.js"></script>
+  
+       <style>body {
+  background: #000;
+}</style>
+
+</head>
+<body>
+     
+      
+<video class="video-js vjs-default-skin" controls="" data-setup="{}" fluid="true" height="391" id="video_1" 
+poster="http://images.gameskinny.com/gameskinny/8331a7cbb60977b26b98347826e0e99d.png">          
+<source label="360p" res="360" src="https://lh3.googleusercontent.com/gYOdhYhAbPcLAWZAxIF3LuRptLlui29stqjbEQsKC4omZmUOHmnpzOmIjcXQ_IoNa6IoJxOYVomhGVrpi_Vr3b4H7bLrFjOMkc0ip4tsudH0DsL_kNZXLfhPA7wTyrPItj4VmN5aEYGfGrKZelmf1J7k7waptKiwZhaUECkVV44FFv9ky1Ef-AZXdKSWvkG7GZE_ysOnNifTlRQO8hfkaH7c7RJfGqR4yaZEEbhMle4eD41cWCThVq4oIqHaKP2ZXkg7t-qi50HzSkI08LZEzF3ZjmjT-p5s7FW2gMCtKe8JOiyPhNCZSo0b2uYusNLFgk2O1XFrtDnZAFHjcdk4i1sPedzfnyYxM_eetglNqeJNS-iDUXawKXKBObDK5zaj9KDPSb3XCh8rxQXSPVv_FbBDzHxb5dvm68O-oBvs8MUcUHqw0OC9V4cbqV8PfH71nxn3srkYcji-_g5CByHFfUvC3xAuoSS4Wf4YTP-B__5-j-O8ag25wWp2wkM_5_H9NyMmiRURlLq_6OWIVS7Cs4xNT5VZ8bdKHD_fQMUL6vs87F6JLTqsy5bx-HG_absgxGfrpJmNeixQkLqOS8f1Jcu1nfTIUY_rxIE-a0CCahW-Xrqw69nA_RwgPn1UQ3Hn4Vq66dIVSE1YfmIAjHBxmFif0FEEq0iqMD7-UiJgDQ=m18?360" type="video/mp4"></source> 
+<source label="720p" res="720" src="https://lh3.googleusercontent.com/gYOdhYhAbPcLAWZAxIF3LuRptLlui29stqjbEQsKC4omZmUOHmnpzOmIjcXQ_IoNa6IoJxOYVomhGVrpi_Vr3b4H7bLrFjOMkc0ip4tsudH0DsL_kNZXLfhPA7wTyrPItj4VmN5aEYGfGrKZelmf1J7k7waptKiwZhaUECkVV44FFv9ky1Ef-AZXdKSWvkG7GZE_ysOnNifTlRQO8hfkaH7c7RJfGqR4yaZEEbhMle4eD41cWCThVq4oIqHaKP2ZXkg7t-qi50HzSkI08LZEzF3ZjmjT-p5s7FW2gMCtKe8JOiyPhNCZSo0b2uYusNLFgk2O1XFrtDnZAFHjcdk4i1sPedzfnyYxM_eetglNqeJNS-iDUXawKXKBObDK5zaj9KDPSb3XCh8rxQXSPVv_FbBDzHxb5dvm68O-oBvs8MUcUHqw0OC9V4cbqV8PfH71nxn3srkYcji-_g5CByHFfUvC3xAuoSS4Wf4YTP-B__5-j-O8ag25wWp2wkM_5_H9NyMmiRURlLq_6OWIVS7Cs4xNT5VZ8bdKHD_fQMUL6vs87F6JLTqsy5bx-HG_absgxGfrpJmNeixQkLqOS8f1Jcu1nfTIUY_rxIE-a0CCahW-Xrqw69nA_RwgPn1UQ3Hn4Vq66dIVSE1YfmIAjHBxmFif0FEEq0iqMD7-UiJgDQ=m22?720" type="video/mp4"></source>                  
+</video>
+     
+  
+
+  <script>
+    videojs('video_1').videoJsResolutionSwitcher()
+    
+    var message="";
+///////////////////////////////////
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+ 
+document.oncontextmenu=new Function("return false")
+  </script>
+</body>
+</html>
