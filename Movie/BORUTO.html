@@ -1,0 +1,43 @@
+<html>
+<head>
+  <link href="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/video.js/dist/video-js.min.css" rel="stylesheet">
+  <link href="https://rawgit.com/kazuma777/webvideo/master/videojs-resolution-switcher.css" rel="stylesheet">
+  <link href="https://kmoskwiak.github.io/videojs-resolution-switcher/style.css" rel="stylesheet">
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/video.js/dist/video.js"></script>
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/videojs-youtube/dist/Youtube.js"></script>
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/videojs-resolution-switcher/lib/videojs-resolution-switcher.js"></script>
+  
+       <style>body {
+  background: #000;
+}</style>
+
+</head>
+<body>
+     
+      
+<video class="video-js vjs-default-skin" controls="" data-setup="{}" fluid="true" height="391" id="video_1" 
+poster="https://1.bp.blogspot.com/-O4nuupYShtM/WIGis-qeD4I/AAAAAAAAASg/SSYwl2cSuXU5NQL7nCw_nBHPNOvYiWzKACKgB/s1600/poster.jpg">          
+<source label="1080p" res="1080" src="https://lh3.googleusercontent.com/BevX_zlXu2m2WQ2ZXuVqOa_OqshaFjUHvcnJ7-9YaJAeKoGwpxyceUTLhYPFn8w6yNnmeToRGhUokQ=m37?1080" type="video/mp4"></source>         
+<source label="360p" res="360" src="https://lh3.googleusercontent.com/BevX_zlXu2m2WQ2ZXuVqOa_OqshaFjUHvcnJ7-9YaJAeKoGwpxyceUTLhYPFn8w6yNnmeToRGhUokQ=m18?360" type="video/mp4"></source> 
+<source label="720p" res="720" src="https://lh3.googleusercontent.com/BevX_zlXu2m2WQ2ZXuVqOa_OqshaFjUHvcnJ7-9YaJAeKoGwpxyceUTLhYPFn8w6yNnmeToRGhUokQ=m22?720" type="video/mp4"></source>                  
+</video>
+     
+  
+
+  <script>
+    videojs('video_1').videoJsResolutionSwitcher()
+    
+    var message="";
+///////////////////////////////////
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+ 
+document.oncontextmenu=new Function("return false")
+  </script>
+</body>
+</html>
