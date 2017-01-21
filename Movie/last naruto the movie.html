@@ -1,0 +1,42 @@
+<html>
+<head>
+  <link href="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/video.js/dist/video-js.min.css" rel="stylesheet">
+  <link href="https://rawgit.com/kazuma777/webvideo/master/videojs-resolution-switcher.css" rel="stylesheet">
+  <link href="https://kmoskwiak.github.io/videojs-resolution-switcher/style.css" rel="stylesheet">
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/video.js/dist/video.js"></script>
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/videojs-youtube/dist/Youtube.js"></script>
+<script src="https://kmoskwiak.github.io/videojs-resolution-switcher/node_modules/videojs-resolution-switcher/lib/videojs-resolution-switcher.js"></script>
+  
+       <style>body {
+  background: #000;
+}</style>
+
+</head>
+<body>
+     
+      
+<video class="video-js vjs-default-skin" controls="" data-setup="{}" fluid="true" height="391" id="video_1" 
+poster="http://3.bp.blogspot.com/-6nNNxtL-iXk/VoSZIZQjQxI/AAAAAAAABts/o5pFNPJWaTQ/s1600/the-last-naruto-the-movie.jpg">          
+<source label="360p" res="360" src="https://lh3.googleusercontent.com/P92xbFbIss3OnzYtOgCYPVYE_LhNT0dE5_zUMENkh4HLXk_Im_7oLMdBBpxHuHmArGkzhr8OLzLY77mf8Mm4we8P8WYU6CIbtWAMOYqCtsQanlA-TRN6ePb0OrFVz2P_HUkmNWUxtYsOEBgZwmDJ21jitjPoqvT027NYA9-urK4vDwdPJY6Gr4euNv_jaKCMd6zuosySZ73tPOCo5eTb8XiSYwMaK9DOfRSNjD3ZgAc9b7it1rQGuNioTX4i_LIC9itvDu-vPbrfi-xI4sT3D-z6hMekJMvpxyvLkuK9OTNav2vCqBE4ch803pgTrxO6_qkyMFEhGzDUJ-2QCR73sm4uQBdBSJN78ygetQr1sIJyha0rtX7yqFD1dEFOIky2L86kkeWADCfEoyofMSZumEr8IG_dAmwMJ3H-OXZEOsNklR7kM9ocGcBt9-pWFRpZLhJZI-jeNwHUZAr49gUT8l36NaQOG3A4AkNYivR6oEx99F2S8d9W1yYaikyByNjHC1GWliyTLQmGZ3cSPMBn2RDQsyWqshen6cnFWaOOYt3AjoyR1QCYmWI5XPSmo82jfHzJXUgsehAKKPEEZ3Jd9HtLSNuj0FgLNJhXTGHRjYCOfnKTEW0L8qHh0kN9Z2Pb5SP6r1cJNWFfm77nTcOBbjxvPcx7EDgVmrxWLU4DLA=m18?360" type="video/mp4"></source> 
+<source label="720p" res="720" src="https://lh3.googleusercontent.com/P92xbFbIss3OnzYtOgCYPVYE_LhNT0dE5_zUMENkh4HLXk_Im_7oLMdBBpxHuHmArGkzhr8OLzLY77mf8Mm4we8P8WYU6CIbtWAMOYqCtsQanlA-TRN6ePb0OrFVz2P_HUkmNWUxtYsOEBgZwmDJ21jitjPoqvT027NYA9-urK4vDwdPJY6Gr4euNv_jaKCMd6zuosySZ73tPOCo5eTb8XiSYwMaK9DOfRSNjD3ZgAc9b7it1rQGuNioTX4i_LIC9itvDu-vPbrfi-xI4sT3D-z6hMekJMvpxyvLkuK9OTNav2vCqBE4ch803pgTrxO6_qkyMFEhGzDUJ-2QCR73sm4uQBdBSJN78ygetQr1sIJyha0rtX7yqFD1dEFOIky2L86kkeWADCfEoyofMSZumEr8IG_dAmwMJ3H-OXZEOsNklR7kM9ocGcBt9-pWFRpZLhJZI-jeNwHUZAr49gUT8l36NaQOG3A4AkNYivR6oEx99F2S8d9W1yYaikyByNjHC1GWliyTLQmGZ3cSPMBn2RDQsyWqshen6cnFWaOOYt3AjoyR1QCYmWI5XPSmo82jfHzJXUgsehAKKPEEZ3Jd9HtLSNuj0FgLNJhXTGHRjYCOfnKTEW0L8qHh0kN9Z2Pb5SP6r1cJNWFfm77nTcOBbjxvPcx7EDgVmrxWLU4DLA=m22?720" type="video/mp4"></source>                  
+</video>
+     
+  
+
+  <script>
+    videojs('video_1').videoJsResolutionSwitcher()
+    
+    var message="";
+///////////////////////////////////
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+ 
+document.oncontextmenu=new Function("return false")
+  </script>
+</body>
+</html>
